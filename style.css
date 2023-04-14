@@ -1,0 +1,68 @@
+.container {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photobanner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: bannermove 10s linear infinite;
+}
+
+.photobanner img {
+  margin: 0 0.5em;
+}
+
+@keyframes bannermove {
+  0% {
+    translate: 0;
+  }
+  100% {
+    translate: -50%;
+  }
+}
+
+.container:hover {
+  overflow: auto;
+}
+
+
+/*container1*/
+
+.container1 {
+  height: 500px;
+  position: relative;
+  overflow: hidden;
+}
+
+.photobanner1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: bannermove 10s linear infinite;
+}
+
+.photobanner1 img {
+  margin: 0 0.5em;
+}
+
+@keyframes bannermove {
+  0% {
+    translate : 0;
+  }
+  100% {
+    translate: -50%;
+  }
+}
+
+.container1:hover {
+  overflow: auto;
+}
+
+
